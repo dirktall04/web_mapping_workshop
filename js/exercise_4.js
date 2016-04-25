@@ -88,3 +88,5 @@ map.on('locationfound', function(e) {
 map.locate({ setView:true });
 
 //corpsmap-xenon.surge.sh -- Will's nightly build of the app he's working on right now.
+// recommended JS: The good parts book, even though it's a bit older.
+// follow people on twitter to learn more about js mapping.
