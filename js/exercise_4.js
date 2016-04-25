@@ -71,7 +71,7 @@ map.on('click', function(e) {
 
 var myLocation = L.mapbox.featureLayer().addTo(map);
 
-map.on('locationFound', function(e) {
+map.on('locationfound', function(e) {
 	myLocation.setGeoJSON({
       type: 'Feature',
       geometry: {
