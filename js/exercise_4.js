@@ -88,4 +88,4 @@ map.on('locationfound', function(e) {
 
 map.locate({ setView:true });
 
-//corpsmap-xenon.surg.sh -- Will's nightly builds of the app he's working on right now.
+//corpsmap-xenon.surg.sh -- Will's nightly build of the app he's working on right now.
