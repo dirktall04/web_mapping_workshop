@@ -23,11 +23,14 @@ var dataFileToAdd = 'data/parks.geojson';
 var featureLayer = L.mapbox.featureLayer();
 featureLayer.loadURL(dataFileToAdd);
 featureLayer.addTo(map);
+//      "color": "#98F623",
+//      "fillColor": "#65F654",
+
 
 featureLayer.on('ready', function() {
 	this.setStyle({
-      "color": "#98F623",
-      "fillColor": "#65F654",
+      "color": "orange",
+      "fillColor": "yellow",
       "weight": .5,
       "opacity": 0.65
     });
