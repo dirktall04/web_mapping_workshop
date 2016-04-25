@@ -27,8 +27,8 @@ featureLayer.addTo(map);
 
 featureLayer.on('ready', function() {
 	this.setStyle({
-      "color": "#98F623",
-      "fillColor": "#65F654",
+      "color": "#A3C682",
+      "fillColor": "#39C654",
       "weight": 2.5,
       "opacity": 0.65
     });
