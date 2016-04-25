@@ -25,7 +25,7 @@ featureLayer.loadURL(dataFileToAdd);
 featureLayer.addTo(map);
 
 featureLayer.on('ready', function() {
-	this.setSTyle({
+	this.setStyle({
       "color": "#6583BF",
       "fillColor": "#6583BF",
       "weight": .5,
