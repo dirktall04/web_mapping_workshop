@@ -50,8 +50,8 @@ var clickHandler = function(e) {
     var info = '';
     
     info += '<div>'
-    info += '<h2>' + feature.properties.LABEL + '</h2>'
-    info += '<p>' + feature.properties.LOCATION + '</p>'
+    info += 	'<h2>' + feature.properties.LABEL + '</h2>'
+    info += 	'<p>' + feature.properties.LOCATION + '</p>'
     info += '</div>'
     
     $('#info').append(info);
@@ -62,4 +62,9 @@ featureLayer.on('ready', function(){
     this.eachLayer(function(layer){
     	layer.on('click', clickHandler);
 	});
+});
+
+map.on('click', function(e) {
+  $('#info').fadeOut(200);
+  $('#info').empty();
 });
